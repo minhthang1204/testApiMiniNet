@@ -38,7 +38,7 @@ const { OK } = require("./src/constants/statusCode.constant.js");
 const Chat = require("./src/models/chat.model.js");
 
 const port = process.env.PORT || 3000;
-const firstParamsRoute = process.env.FIRST_PARAMS_ROUTE || "it4788";
+const firstParamsRoute = process.env.FIRST_PARAMS_ROUTE || "it4895q";
 
 // const app = express();
 app.use(cors());
@@ -61,7 +61,7 @@ app.all("/", (req, res) => {
   });
 });
 
-app.post("/fileupload", (req, res) => {
+app.post("/ ", (req, res) => {
   console.log(req.files);
   // fs.rename(oldpath, newpath, function (err) {
   //   if (err) throw err;
